@@ -189,7 +189,7 @@ export default function CustomerEnquiryForm() {
                         <FormControl>
                           <RadioGroup
                             onValueChange={field.onChange}
-                            defaultValue={field.value}
+                            defaultValue={field.value ?? ""}
                             className="flex flex-col space-y-1"
                           >
                             {[
