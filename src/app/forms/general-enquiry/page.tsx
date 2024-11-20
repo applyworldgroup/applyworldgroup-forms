@@ -201,6 +201,7 @@ export default function CustomerEnquiryForm() {
                               "186 Visa",
                               "General Consultation",
                               "PR Pathways",
+                              "Online Course",
                               "Other",
                             ].map((purpose) => (
                               <FormItem
